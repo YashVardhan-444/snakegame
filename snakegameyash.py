@@ -27,7 +27,7 @@ score_font = pygame.font.SysFont("calibri", 25) #for font of score
  
  
 def Your_score(score): #method for score
-    value = score_font.render("Your Score: " + str(score), True, black)
+    value = score_font.render("Your Score: " + str(score), True, yellow)
     dis.blit(value, [0, 0]) #used for displaying the score at top left corner that's why 0,0
  
  
